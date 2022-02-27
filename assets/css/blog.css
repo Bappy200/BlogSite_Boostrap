@@ -1,0 +1,38 @@
+/* ABOUT BANNER STYLE START */
+.blog_top_section{
+    width: 100%;
+    padding-top: 40px;
+    background: #FAF2EF;
+    position: relative;
+}
+.blog_top_section::after{
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 50%;
+    z-index: 0;
+    height: 100%;
+    clip-path: polygon(88% 0, 100% 0%, 100% 100%, 44% 100%);
+    background: #92D8BB;
+}
+.top_right_side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    z-index: 999;
+}
+.top_left_side{
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+
+}
+.top_right_side img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    z-index: 999;
+}
