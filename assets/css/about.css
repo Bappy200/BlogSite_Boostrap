@@ -1,0 +1,51 @@
+/* ABOUT BANNER STYLE START */
+.about_top_section{
+    width: 100%;
+    padding-top: 40px;
+    background: #FAF2EF;
+}
+.top_right_side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.top_left_side{
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+
+}
+.top_right_side img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.article_item{
+    padding: 20px;
+    margin-bottom: 25px;
+    background: rgb(221, 221, 221);
+}
+.article_item h3{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family:"Cormorant Garamond", sans-serif;
+    color: rgb(17, 16, 16);
+    padding-bottom: 15px;
+}
+.article_item h3{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family:"Cormorant Garamond", sans-serif;
+    color: rgb(17, 16, 16);
+}
+.about_artical_image{
+    margin-left: 20px;
+}
+.about_artical_image img{
+
+    width: 100%;
+}
